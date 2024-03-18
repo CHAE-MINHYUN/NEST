@@ -1,0 +1,100 @@
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header, section, footer{
+    width: 100%; 
+    position: relative;
+}
+
+section, footer{
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.section_3, .section_4{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    bottom: -100px;
+    left: 0;
+    opacity: 0;
+}
+
+.con_3, .con_4{
+    width: 70%;
+}
+
+.fo_wrap, .footer_2{
+    padding: 20px;
+}
+
+.side, .sns{
+    display: flex;
+    justify-content: space-around;
+}
+/* end */
+
+@media all and (max-width : 1860px){
+    h2{
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width : 1600px){
+    .section_2, .section_7{
+        width: 90%;
+    }
+
+    .section_3, .section_4{
+        width: 100%;
+    }
+
+    .con_3, .con_4{
+        width: 60%;
+    }
+}
+
+@media all and (max-width : 1420px){
+    section, footer{
+        margin-top: 160px;
+    }
+}
+
+@media all and (max-width : 1290px){
+    .section_3, .re_section_4{
+        width: 90%;
+        flex-direction: column;
+    }
+        
+    .con_3, .con_4{
+        width: 100%;
+    }
+}
+
+@media all and (max-width : 968px){
+    section, footer{
+        margin-top: 100px;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+}
+
+@media all and (max-width : 692px){
+    .section_3, .re_section_4, .re_section_5{
+        width: 100%;
+    }
+}
+
+@media all and (max-width : 566px){
+    h2{
+        font-size: 30px;
+    }
+}
